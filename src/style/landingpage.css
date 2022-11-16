@@ -1,0 +1,57 @@
+.myBg {
+  background-color: #e0e0e0;
+  height: 200vh;
+}
+
+/* navbar */
+.navbarX {
+  background-color: #f95a80;
+  max-width: fill;
+}
+
+.navbarY {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-shadow: 1.5px 1px #f4c12c;
+}
+
+.navbarZ {
+  font-weight: 800 rgb(0, 0, 0);
+  text-shadow: 0.5px 0.5px #241e0c;
+}
+
+/* darkMode */
+#darkMode {
+  background: black url(../assets/icon/logobulan.png) no-repeat center;
+  background-size: 30px 30px;
+  width: 45px;
+  height: 45px;
+  filter: grayscale(100%);
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+#darkMode.clicked {
+  filter: none !important;
+  background-color: black;
+}
+
+/* navbar end */
+/* carousel */
+.imgBanner {
+  height: 900px;
+}
+
+.textH {
+  background-color: #000000;
+  text-shadow: 2px 0.2px #f95a80;
+}
+/* carousel end */
